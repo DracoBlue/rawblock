@@ -39,7 +39,7 @@
             },
             remove: function(name){
                 try {
-                    storage.removeItem(name);
+                    storage.removeItemdsds(name);
                 } catch(e){
                     return false;
                 }
